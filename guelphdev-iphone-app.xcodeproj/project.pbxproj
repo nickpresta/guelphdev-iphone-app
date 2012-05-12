@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE8074541557705900B504E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8074531557705900B504E6 /* UIKit.framework */; };
+		CE8074561557705900B504E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8074551557705900B504E6 /* Foundation.framework */; };
+		CE8074581557705900B504E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8074571557705900B504E6 /* CoreGraphics.framework */; };
+		CE80745E1557705900B504E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE80745C1557705900B504E6 /* InfoPlist.strings */; };
+		CE8074601557705900B504E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE80745F1557705900B504E6 /* main.m */; };
+		CE8074641557705900B504E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8074631557705900B504E6 /* AppDelegate.m */; };
+		CE8074671557705900B504E6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8074651557705900B504E6 /* MainStoryboard.storyboard */; };
+		CE8A8DE015585C3200A5D806 /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8A8DDF15585C3200A5D806 /* ConnectViewController.m */; };
+		CEBBFD49155901450029B53C /* ConnectItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBBFD48155901450029B53C /* ConnectItemViewController.m */; };
+		CEBCD563155DFD6D00D10C6C /* ATM-Card.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBCD562155DFD6D00D10C6C /* ATM-Card.png */; };
+		CEBCD569155DFE9100D10C6C /* Radio-Tower.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBCD568155DFE9100D10C6C /* Radio-Tower.png */; };
+		CEBCD56B155DFEDD00D10C6C /* Marker.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBCD56A155DFEDD00D10C6C /* Marker.png */; };
+		CEBCD56D155DFEEF00D10C6C /* Calendar-Month.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBCD56C155DFEEF00D10C6C /* Calendar-Month.png */; };
+		CEBCD56F155DFF3200D10C6C /* Airplane.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBCD56E155DFF3200D10C6C /* Airplane.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE80744F1557705900B504E6 /* iGuelph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGuelph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8074531557705900B504E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE8074551557705900B504E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE8074571557705900B504E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE80745B1557705900B504E6 /* guelphdev-iphone-app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "guelphdev-iphone-app-Info.plist"; sourceTree = "<group>"; };
+		CE80745D1557705900B504E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE80745F1557705900B504E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE8074611557705900B504E6 /* guelphdev-iphone-app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guelphdev-iphone-app-Prefix.pch"; sourceTree = "<group>"; };
+		CE8074621557705900B504E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE8074631557705900B504E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE8074661557705900B504E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE8A8DDE15585C3200A5D806 /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		CE8A8DDF15585C3200A5D806 /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		CEBBFD47155901450029B53C /* ConnectItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectItemViewController.h; sourceTree = "<group>"; };
+		CEBBFD48155901450029B53C /* ConnectItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectItemViewController.m; sourceTree = "<group>"; };
+		CEBCD562155DFD6D00D10C6C /* ATM-Card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ATM-Card.png"; sourceTree = "<group>"; };
+		CEBCD568155DFE9100D10C6C /* Radio-Tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Radio-Tower.png"; sourceTree = "<group>"; };
+		CEBCD56A155DFEDD00D10C6C /* Marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Marker.png; sourceTree = "<group>"; };
+		CEBCD56C155DFEEF00D10C6C /* Calendar-Month.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Calendar-Month.png"; sourceTree = "<group>"; };
+		CEBCD56E155DFF3200D10C6C /* Airplane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Airplane.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE80744C1557705900B504E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8074541557705900B504E6 /* UIKit.framework in Frameworks */,
+				CE8074561557705900B504E6 /* Foundation.framework in Frameworks */,
+				CE8074581557705900B504E6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8074441557705900B504E6 = {
+			isa = PBXGroup;
+			children = (
+				CE8074591557705900B504E6 /* guelphdev-iphone-app */,
+				CE8074521557705900B504E6 /* Frameworks */,
+				CE8074501557705900B504E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8074501557705900B504E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE80744F1557705900B504E6 /* iGuelph.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8074521557705900B504E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8074531557705900B504E6 /* UIKit.framework */,
+				CE8074551557705900B504E6 /* Foundation.framework */,
+				CE8074571557705900B504E6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE8074591557705900B504E6 /* guelphdev-iphone-app */ = {
+			isa = PBXGroup;
+			children = (
+				CE8A8DDD1558562900A5D806 /* Images */,
+				CE8074621557705900B504E6 /* AppDelegate.h */,
+				CE8074631557705900B504E6 /* AppDelegate.m */,
+				CE8074651557705900B504E6 /* MainStoryboard.storyboard */,
+				CE80745A1557705900B504E6 /* Supporting Files */,
+				CE8A8DDE15585C3200A5D806 /* ConnectViewController.h */,
+				CE8A8DDF15585C3200A5D806 /* ConnectViewController.m */,
+				CEBBFD47155901450029B53C /* ConnectItemViewController.h */,
+				CEBBFD48155901450029B53C /* ConnectItemViewController.m */,
+			);
+			path = "guelphdev-iphone-app";
+			sourceTree = "<group>";
+		};
+		CE80745A1557705900B504E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE80745B1557705900B504E6 /* guelphdev-iphone-app-Info.plist */,
+				CE80745C1557705900B504E6 /* InfoPlist.strings */,
+				CE80745F1557705900B504E6 /* main.m */,
+				CE8074611557705900B504E6 /* guelphdev-iphone-app-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE8A8DDD1558562900A5D806 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEBCD56E155DFF3200D10C6C /* Airplane.png */,
+				CEBCD56C155DFEEF00D10C6C /* Calendar-Month.png */,
+				CEBCD56A155DFEDD00D10C6C /* Marker.png */,
+				CEBCD568155DFE9100D10C6C /* Radio-Tower.png */,
+				CEBCD562155DFD6D00D10C6C /* ATM-Card.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE80744E1557705900B504E6 /* guelphdev-iphone-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE80746D1557705900B504E6 /* Build configuration list for PBXNativeTarget "guelphdev-iphone-app" */;
+			buildPhases = (
+				CE80744B1557705900B504E6 /* Sources */,
+				CE80744C1557705900B504E6 /* Frameworks */,
+				CE80744D1557705900B504E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "guelphdev-iphone-app";
+			productName = "guelphdev-iphone-app";
+			productReference = CE80744F1557705900B504E6 /* iGuelph.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8074461557705900B504E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE8074491557705900B504E6 /* Build configuration list for PBXProject "guelphdev-iphone-app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE8074441557705900B504E6;
+			productRefGroup = CE8074501557705900B504E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE80744E1557705900B504E6 /* guelphdev-iphone-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE80744D1557705900B504E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80745E1557705900B504E6 /* InfoPlist.strings in Resources */,
+				CE8074671557705900B504E6 /* MainStoryboard.storyboard in Resources */,
+				CEBCD563155DFD6D00D10C6C /* ATM-Card.png in Resources */,
+				CEBCD569155DFE9100D10C6C /* Radio-Tower.png in Resources */,
+				CEBCD56B155DFEDD00D10C6C /* Marker.png in Resources */,
+				CEBCD56D155DFEEF00D10C6C /* Calendar-Month.png in Resources */,
+				CEBCD56F155DFF3200D10C6C /* Airplane.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE80744B1557705900B504E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE8074601557705900B504E6 /* main.m in Sources */,
+				CE8074641557705900B504E6 /* AppDelegate.m in Sources */,
+				CE8A8DE015585C3200A5D806 /* ConnectViewController.m in Sources */,
+				CEBBFD49155901450029B53C /* ConnectItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE80745C1557705900B504E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE80745D1557705900B504E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE8074651557705900B504E6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE8074661557705900B504E6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE80746B1557705900B504E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE80746C1557705900B504E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE80746E1557705900B504E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guelphdev-iphone-app/guelphdev-iphone-app-Prefix.pch";
+				INFOPLIST_FILE = "guelphdev-iphone-app/guelphdev-iphone-app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iGuelph;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE80746F1557705900B504E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guelphdev-iphone-app/guelphdev-iphone-app-Prefix.pch";
+				INFOPLIST_FILE = "guelphdev-iphone-app/guelphdev-iphone-app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = iGuelph;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE8074491557705900B504E6 /* Build configuration list for PBXProject "guelphdev-iphone-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80746B1557705900B504E6 /* Debug */,
+				CE80746C1557705900B504E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE80746D1557705900B504E6 /* Build configuration list for PBXNativeTarget "guelphdev-iphone-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80746E1557705900B504E6 /* Debug */,
+				CE80746F1557705900B504E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE8074461557705900B504E6 /* Project object */;
+}
